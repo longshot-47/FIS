@@ -11,7 +11,9 @@ faced when they have to adapt new operation models due to the rapid development 
 cross-border ecommerce. This paper also show some solutions to help those small and
 medium sized enterprises to adapt new operation models.
 
-2. Keywords: 
+2. Keywords: *Ecommerce logistics, Cyber physical system, Synchronization, Case studies*
+
+3.
 
 ---
 ## Lab 1 Q6/Q7
