@@ -9,12 +9,19 @@ Studnet No.: 57170429
 1. The paper show some problems that Hong Kong's small and medium sized enterprises
 faced when they have to adapt new operation models due to the rapid development of
 cross-border ecommerce. This paper also show some solutions to help those small and
-medium sized enterprises to adapt new operation models.
+medium sized enterprises adapt new operation models.
 
 2. Keywords: *Ecommerce logistics, Cyber physical system, Synchronization, Case studies*
 
-3.
+3. Introducing cloud logistics assets to industrial wearable objects is a new idea but they can easily be replace by a PDA. Also, the employees are require to wear extra gadgets is not favourable. 
 
+4. The paper clearly show the solutions to help the enterprises by graphs
+
+5. The solutions is quite hard to achieve because small and medium sized enterprises may not have enough capital to deploy the solutions
+
+6. Will massive deploy of industrial wearable objects decrease the efficiency of the employees when the objects are out of battery
+
+7. Those smart devices in Fig. 2 need more elaboration
 ---
 ## Lab 1 Q6/Q7
 
