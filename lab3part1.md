@@ -1,6 +1,6 @@
 ---
-Student name: __Ng Yat Lung__
-Studnet No.: __57170429__
+Student name: Ng Yat Lung
+Studnet No.: 57170429
 ---
 
 
