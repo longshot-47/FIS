@@ -6,7 +6,12 @@ Studnet No.: 57170429
 
 ### Xiang T.R.Kong et al. (2010) Cyber physical ecommerce logistics system: An implementation case in Hong Kong Computers & Industrial Engineering, Volume 139, January 2020, 106170
 
+1. The paper show some problems that Hong Kong's small and medium sized enterprises
+faced when they have to adapt new operation models due to the rapid development of
+cross-border ecommerce. This paper also show some solutions to help those small and
+medium sized enterprises to adapt new operation models.
 
+2. Keywords: 
 
 ---
 ## Lab 1 Q6/Q7
