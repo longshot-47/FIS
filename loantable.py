@@ -43,7 +43,7 @@ while (ending_balance >0):
     month += 1
     starting_balance = ending_balance
     if starting_balance < payment:
-        payment = starting_balance
+        starting_balance = payment 
     payment = pay
     middle_balance = starting_balance - payment
     interest = middle_balance * rate/12/100
