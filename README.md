@@ -1,4 +1,4 @@
-# FIS
+# Foundation in Information System
 Student name: __Ng Yat Lung__
 Studnet No.: __57170429__
 
