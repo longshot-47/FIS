@@ -66,7 +66,7 @@ def menuItem3():
             clientDataList[i]['Balance'] += transactionAmt
                     
         print('%-20s%-30s%10s'%('Name','Address','Balance'))
-        print('-'*4 + '                ' + '-'*7 +'                          '+'-'*6)
+        print('%-20s%-30s%9s'%('-'*4 , '-'*7 , '-'*6))
                 
         for e in sorted(clientDataList, key = lambda c: c['Name']):
             if e['Balance'] != 0:
@@ -108,7 +108,7 @@ def menuItem4():
     to print customer report
     '''         
     print('%-20s%-30s%10s'%('Name','Address','Balance'))
-    print('-'*4 + '                ' + '-'*7 +'                          '+'-'*6)
+    print('%-20s%-30s%9s'%('-'*4 , '-'*7 , '-'*6))
             
     for e in sorted(clientDataList, key = lambda c: c['Name']):
         if e['Balance'] != 0:
