@@ -26,9 +26,9 @@ def readData(datafile):
     for line in lines:
         transactionRecord = line.split('_') # convert line to record
         if transactionRecord[2] != 'C' and transactionRecord[2] != 'D':
-            sys.stderr.write('\n' + 'Invalid transaction code: ' + '\n' + line)
+            sys.stderr.write('\n' + 'Invalid transaction code: ' + '\n' + line) # detect and show error on transaction code
         elif float(transactionRecord[3]) < 0:
-            sys.stderr.write('\n' + 'Invalid transaction amt:' + '\n' + line)
+            sys.stderr.write('\n' + 'Invalid transaction amt:' + '\n' + line) # detect and show error on transaction amount
         else:
             data.append(transactionRecord) # append each record to list data
         
@@ -48,22 +48,22 @@ def menuItem3():
         customerName = input("Customer name: ")
         transactionType = input("Transaction type (C/D): ")
         if transactionType != 'C' and transactionType != 'D':
-            raise Exception ('Invalid Transaction Type')
+            raise Exception ('Invalid Transaction Type') # detect and show error on transaction code
         transactionAmt = float(input("Transaction amount: "))
         if transactionAmt < 0:
-            raise Exception ('Invalid Transaction Amount')        
+            raise Exception ('Invalid Transaction Amount') # detect and show error on transaction amount
                 
         i = 0
         while i < len(clientDataList) and clientDataList[i]['Name'] != customerName:
-            i  += 1
+            i  += 1 # loop to print transaction record
 
         if i == len(clientDataList):
-            raise Exception ('Invalid Customer Name')
+            raise Exception ('Invalid Customer Name') # detect and show error on customer name
         
         if transactionType == 'C':
             clientDataList[i]['Balance'] -= transactionAmt
         else:
-            clientDataList[i]['Balance'] += transactionAmt
+            clientDataList[i]['Balance'] += transactionAmt # adjust transaction amount
                     
         print('%-20s%-30s%10s'%('Name','Address','Balance'))
         print('%-20s%-30s%9s'%('-'*4 , '-'*7 , '-'*6))
