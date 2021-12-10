@@ -1,0 +1,199 @@
+#SBApp doc
+---------
+##problem spec and design:
+
+see assignment specification 5%
+flowchart and data/class diagram
+
+
+
+
+##test report:
+###Case 1
+
+Python 3.10.1 (tags/v3.10.1:2cd268a, Dec  6 2021, 19:10:37) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+================== RESTART: C:\Users\User\Downloads\SBappV5.py =================
+Fred Chan_213 Yuen Long Avenue_D_41.03
+Sue Wong_9102 Kowloon Circle_D_10.00
+Fred Chan_213 Yuen Long Avenue_C_0.01
+Baba Li_2000 E. 21st Street_D_450.00
+Sue Wong_9102 Kowloon Circle_C_5.50
+Jay Law_9103 Problem Area_C_25.00
+Fred Chan_213 Yuen Long Avenue_C_41.02
+Enter one of the following:
+        1 to print the contents of input transaction file
+        2 to print all valid input transaction data
+        3 to enter adjustment transaction
+        4 to print customer report
+        Q to end 
+Enter 1 to 4 1
+Fred Chan_213 Yuen Long Avenue_D_41.03
+Sue Wong_9102 Kowloon Circle_D_10.00
+Fred Chan_213 Yuen Long Avenue_C_0.01
+Baba Li_2000 E. 21st Street_D_450.00
+Sue Wong_9102 Kowloon Circle_C_5.50
+Jay Law_9103 Problem Area_C_25.00
+Fred Chan_213 Yuen Long Avenue_C_41.02
+Enter one of the following:
+        1 to print the contents of input transaction file
+        2 to print all valid input transaction data
+        3 to enter adjustment transaction
+        4 to print customer report
+        Q to end 
+Enter 1 to 4 2
+Name                Address                         Txn    Amount
+=================================================================
+Fred Chan           213 Yuen Long Avenue              D     41.03
+Sue Wong            9102 Kowloon Circle               D     10.00
+Fred Chan           213 Yuen Long Avenue              C      0.01
+Baba Li             2000 E. 21st Street               D    450.00
+Sue Wong            9102 Kowloon Circle               C      5.50
+Jay Law             9103 Problem Area                 C     25.00
+Fred Chan           213 Yuen Long Avenue              C     41.02
+
+Enter one of the following:
+        1 to print the contents of input transaction file
+        2 to print all valid input transaction data
+        3 to enter adjustment transaction
+        4 to print customer report
+        Q to end 
+Enter 1 to 4 4
+Name                Address                          Balance
+============================================================
+Baba Li             2000 E. 21st Street               450.00
+Jay Law             9103 Problem Area                 -25.00
+Sue Wong            9102 Kowloon Circle                 4.50
+
+Enter one of the following:
+        1 to print the contents of input transaction file
+        2 to print all valid input transaction data
+        3 to enter adjustment transaction
+        4 to print customer report
+        Q to end 
+Enter 1 to 4 3
+Customer name: Baba Li
+Transaction type (C/D): D
+Transaction amount: 100
+Name                Address                          Balance
+============================================================
+Fred Chan           213 Yuen Long Avenue                0.00
+Sue Wong            9102 Kowloon Circle                 4.50
+Baba Li             2000 E. 21st Street               550.00
+Jay Law             9103 Problem Area                 -25.00
+
+Enter one of the following:
+        1 to print the contents of input transaction file
+        2 to print all valid input transaction data
+        3 to enter adjustment transaction
+        4 to print customer report
+        Q to end 
+Enter 1 to 4 
+
+###Case 2
+Python 3.10.1 (tags/v3.10.1:2cd268a, Dec  6 2021, 19:10:37) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+================== RESTART: C:\Users\User\Downloads\SBappV5.py =================
+Fred Chan_213 Yuen Long Avenue_D_41.03
+Sue Wong_9102 Kowloon Circle_D_10.00
+Fred Chan_213 Yuen Long Avenue_C_0.01
+Baba Li_2000 E. 21st Street_D_450.00
+Sue Wong_9102 Kowloon Circle_C_5.50
+Jay Law_9103 Problem Area_C_25.00
+Fred Chan_213 Yuen Long Avenue_C_41.02
+Enter one of the following:
+        1 to print the contents of input transaction file
+        2 to print all valid input transaction data
+        3 to enter adjustment transaction
+        4 to print customer report
+        Q to end 
+Enter 1 to 4 
+
+Enter one of the following:
+        1 to print the contents of input transaction file
+        2 to print all valid input transaction data
+        3 to enter adjustment transaction
+        4 to print customer report
+        Q to end 
+Enter 1 to 4 1
+Fred Chan_213 Yuen Long Avenue_D_41.03
+Sue Wong_9102 Kowloon Circle_D_10.00
+Fred Chan_213 Yuen Long Avenue_C_0.01
+Baba Li_2000 E. 21st Street_D_450.00
+Sue Wong_9102 Kowloon Circle_C_5.50
+Jay Law_9103 Problem Area_C_25.00
+Fred Chan_213 Yuen Long Avenue_C_41.02
+Enter one of the following:
+        1 to print the contents of input transaction file
+        2 to print all valid input transaction data
+        3 to enter adjustment transaction
+        4 to print customer report
+        Q to end 
+Enter 1 to 4 2
+Name                Address                         Txn    Amount
+=================================================================
+Fred Chan           213 Yuen Long Avenue              D     41.03
+Sue Wong            9102 Kowloon Circle               D     10.00
+Fred Chan           213 Yuen Long Avenue              C      0.01
+Baba Li             2000 E. 21st Street               D    450.00
+Sue Wong            9102 Kowloon Circle               C      5.50
+Jay Law             9103 Problem Area                 C     25.00
+Fred Chan           213 Yuen Long Avenue              C     41.02
+
+Enter one of the following:
+        1 to print the contents of input transaction file
+        2 to print all valid input transaction data
+        3 to enter adjustment transaction
+        4 to print customer report
+        Q to end 
+Enter 1 to 4 4
+Name                Address                          Balance
+============================================================
+Baba Li             2000 E. 21st Street               450.00
+Jay Law             9103 Problem Area                 -25.00
+Sue Wong            9102 Kowloon Circle                 4.50
+
+Enter one of the following:
+        1 to print the contents of input transaction file
+        2 to print all valid input transaction data
+        3 to enter adjustment transaction
+        4 to print customer report
+        Q to end 
+Enter 1 to 4 3
+Customer name: Sue Wong
+Transaction type (C/D): D
+Transaction amount: 10
+Name                Address                          Balance
+============================================================
+Fred Chan           213 Yuen Long Avenue                0.00
+Sue Wong            9102 Kowloon Circle                14.50
+Baba Li             2000 E. 21st Street               450.00
+Jay Law             9103 Problem Area                 -25.00
+
+Enter one of the following:
+        1 to print the contents of input transaction file
+        2 to print all valid input transaction data
+        3 to enter adjustment transaction
+        4 to print customer report
+        Q to end 
+Enter 1 to 4 4
+Name                Address                          Balance
+============================================================
+Baba Li             2000 E. 21st Street               450.00
+Jay Law             9103 Problem Area                 -25.00
+Sue Wong            9102 Kowloon Circle                14.50
+
+Enter one of the following:
+        1 to print the contents of input transaction file
+        2 to print all valid input transaction data
+        3 to enter adjustment transaction
+        4 to print customer report
+        Q to end 
+Enter 1 to 4 
+
+
+##User and technical documentation
+	type python SBapp.py datafilename to run program
+	
