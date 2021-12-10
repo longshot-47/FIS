@@ -26,9 +26,9 @@ def readData(datafile):
     for line in lines:
         transactionRecord = line.split('_') # convert line to record
         if transactionRecord[2] != 'C' and transactionRecord[2] != 'D':
-            sys.stderr.write('Invalid Transaction Type : ' + line + '\n')
+            sys.stderr.write('Invalid transaction code: ' + '\n' + line + '\n')
         elif float(transactionRecord[3]) < 0:
-            sys.stderr.write('\n' + 'Invalid Transaction Amount : ' + line + '\n')
+            sys.stderr.write('\n' + 'Invalid transaction amt:' + '\n' + line + '\n')
         else:
             data.append(transactionRecord) # append each record to list data
         
@@ -142,7 +142,7 @@ def main():
     print ("End Simple Billing System")
 
 if __name__ == "__main__":
-    sys.argv = [sys.argv[0], 'datafile0.dat']
+    sys.argv = [sys.argv[0], 'datafile1.dat']
     
     displayFile(sys.argv[1])
     readData(sys.argv[1])
