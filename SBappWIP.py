@@ -68,8 +68,9 @@ def menuItem3():
         print('%-20s%-30s%10s'%('Name','Address','Balance'))
         print('='*60)
                 
-        for e in clientDataList:
-            print('%-20s%-30s%10.2f'%(e['Name'], e['Address'], e['Balance']))
+        for e in sorted(clientDataList, key = lambda c: c['Name']):
+            if e['Balance'] != 0:
+                print('%-20s%-30s%10.2f'%(e['Name'], e['Address'], e['Balance']))
                 
 
     except Exception as exception:
