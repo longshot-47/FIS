@@ -33,7 +33,7 @@ def readData(datafile):
             else:
                 data.append(transactionRecord) # append each record to list data
         else:
-            sys.stderr.write('\n' + 'Invalid field number: '+ '\n' + line)     
+            sys.stderr.write('\n' + 'Invalid data format: '+ '\n' + line + '\n' + 'Acceptable data format: ' + '\n' + 'Name_Address_Transcation code_transaction amount')     
 def show_trans_data():
     '''
     menuItem2() to print transaction data 
