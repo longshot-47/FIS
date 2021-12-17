@@ -34,7 +34,7 @@ def readData(datafile):
                 data.append(transactionRecord) # append each record to list data
         else:
             sys.stderr.write('\n' + 'Invalid field number: '+ '\n' + line)     
-def menuItem2():
+def show_trans_data():
     '''
     menuItem2() to print transaction data 
     '''
@@ -45,7 +45,7 @@ def menuItem2():
     for e in data:
         print('%-20s%-30s%5s%10s'%(e[0], e[1], e[2], e[3]))
         
-def menuItem3():
+def input_trans_data():
     try:
         sys.stderr.write('Input Q to exit'+'\n')
         customerName = input("Customer name: ")
@@ -112,7 +112,7 @@ def creatCustomerList():
                     else:
                         clientDataList[i]['Balance'] += float(e[3])      
     
-def menuItem4():
+def show_report():
     '''
     to print customer report
     '''         
@@ -140,11 +140,11 @@ def main():
         if choice == "1":
             displayFile(sys.argv[1])
         elif choice == "2":           
-            menuItem2()
+            show_trans_data()
         elif choice == "3":
-            menuItem3()        
+            input_trans_data()        
         elif choice == "4":
-            menuItem4()
+            show_report()
         elif choice == "Q":
             break
         elif choice != "1" or "2" or "3" or "4" or "Q":
