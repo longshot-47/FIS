@@ -1,0 +1,34 @@
+Q1
+	fail to deliever satisifed customer service
+		fail to fax in time eg (10am fax vs 9am opening)
+			replace to improve personal service/reduce complain/move likely to desposit more money
+			willingness to return/higher customer satisifaction rate/increase sales in term of cost-sales
+
+Q2
+	communication:	email/social network/mobile apps (channel/platform)
+		promotion material/market insight/risk analysis/market forecast/CRM(customer realtionship management system)
+			CRM>>>>>>>>>>>happy birthday notice/ credit system(credit for other product)
+				opportunity management
+					history function(remember your lastest transaciton)>>>give related promotion
+			intimacy
+				mobile solution paper(lab4?)
+					better price on transaciton done on app(private banking)	
+					access to transaction 24/7(accessibility)
+
+Q3
+	an pyramid
+		bottom ----- "D" >>>>>>> data -------- eg BlueFax
+		2nd bottom - "I" >>>>>>> information - eg CRM
+		2nd top ---- "K" >>>>>>> knowledge --- eg B.I.
+		top -------- "W" >>>>>>> wisdom
+
+Q4
+	ERB and flow chart
+		ref. Kisco API
+
+
+formatting
+	point form
+	with eg and table
+	relationship between Q1 and Q3
+		ref. week 9/10? restaurant decision making
