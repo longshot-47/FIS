@@ -1,0 +1,26 @@
+1.  A
+2.  A
+3.  C
+4.  C
+5.  C
+6.  B
+7.  C
+8.  C
+9.  C
+10. C
+11. C
+12. B
+13. C
+14. E
+15. A
+16. C
+17. A
+18. A
+19. E
+20. A
+
+long question
+1. program  
+2. HUB case study
+3. database lab 7
+4. security lab 8
